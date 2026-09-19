@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "flexigantt": {
+      "type": "http",
+      "url": "http://127.0.0.1:47632/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FLEXIGANTT_MCP_TOKEN}"
+      }
+    }
+  }
+}

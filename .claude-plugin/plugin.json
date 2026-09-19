@@ -1,0 +1,10 @@
+{
+  "name": "flexigantt",
+  "version": "1.1.0",
+  "description": "Answer questions about a FlexiGantt project open in the app and export Gantt/Roadmap views, via the bundled MCP tools. Read-only.",
+  "author": {
+    "name": "FlexiGantt"
+  },
+  "repository": "https://github.com/Flexigantt/mcp",
+  "skills": "./skills"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "flexigantt",
+  "description": "FlexiGantt's Agent Skills and MCP server connection, for AI agents working with FlexiGantt schedules",
+  "owner": {
+    "name": "FlexiGantt"
+  },
+  "metadata": {
+    "description": "Skills and MCP server config for the FlexiGantt Mac app",
+    "homepage": "https://github.com/Flexigantt/mcp"
+  },
+  "plugins": [
+    {
+      "name": "flexigantt",
+      "source": "./",
+      "description": "Answer questions about a FlexiGantt project open in the app and export Gantt/Roadmap views, via the bundled MCP tools. Read-only. Includes a status-report companion skill.",
+      "version": "1.1.0",
+      "category": "productivity",
+      "homepage": "https://github.com/Flexigantt/mcp"
+    }
+  ]
+}
