@@ -25,8 +25,8 @@ Call `list_open_projects` first to get a valid id, then:
 | Tool | Returns |
 |---|---|
 | `list_open_projects` | Every project currently open in the app: `open_project_id`, `name`, `file_path`. |
-| `get_project` | Identity: `id`, `name`, `start_date`, `task_count`, `resource_count`, `velocity_factor`. |
-| `list_tasks` | Every task: WBS, dates, completion, status, float, resource, predecessors. |
+| `get_project` | Identity: `id`, `name`, `start_date`, `task_count`, `resource_count`. |
+| `list_tasks` | Every task: WBS, dates, completion, status, float, resource, predecessors, and `frozen_velocity` (the velocity a started task keeps; null until it starts). |
 | `get_task` | Full detail for one task, matched by UUID, WBS number, or unambiguous name (`task_id`). |
 | `get_schedule_drivers` | Predecessors, dependency type/lag, total and free float, and the downstream deadline milestones a task drives (`task_id`). |
 | `get_critical_paths` | The current driving sequences through the project. |
