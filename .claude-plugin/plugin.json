@@ -1,0 +1,10 @@
+{
+  "name": "flexigantt",
+  "version": "1.3.0",
+  "description": "Connect an AI agent to FlexiGantt, the Mac app for classical project management (WBS, dependencies, critical path, baselines, Gantt and roadmaps): build a new plan or import one from CSV, Excel or MS Project XML, answer questions about a live schedule, and export Gantt PDFs and Roadmap PDF/PowerPoint slides via the bundled MCP tools. Signs in with OAuth.",
+  "author": {
+    "name": "FlexiGantt"
+  },
+  "repository": "https://github.com/Flexigantt/mcp",
+  "skills": "./skills"
+}
